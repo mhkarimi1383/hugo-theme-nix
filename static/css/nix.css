@@ -1,3 +1,20 @@
+/* My own preferred font */
+
+@font-face {
+	font-family: mononoki;
+	src: url(https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Mononoki/Regular/complete/mononoki-Regular%20Nerd%20Font%20Complete%20Mono.ttf);
+  }
+
+@font-face {
+	font-family: Aileron-Regular;
+	src: url(../fonts/Aileron-Regular.otf);
+}
+
+@font-face {
+	font-family: Aileron-SemiBold;
+	src: url(../fonts/Aileron-SemiBold.otf);
+}
+
 * {
 	margin: 0;
 }
@@ -30,7 +47,16 @@ img {
 }
 
 .font-header {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'mononoki', monospace;
+
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .font-paragraph {
@@ -38,15 +64,15 @@ img {
 }
 
 nav {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .dropdown-menu li {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Concert One', cursive;
+	font-family: 'Aileron-Regular', cursive;
 }
 
 #user-name {
@@ -69,9 +95,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .user-picture {
-	border-style: solid;
+	/* border-style: none;
 	border-width: 5px;
-	border-color: #292929;
+	border-color: #292929; */
 	margin-top: 20px;
 }
 
