@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: mononoki;
-	src: url(https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Mononoki/Regular/complete/mononoki-Regular%20Nerd%20Font%20Complete%20Mono.ttf);
+	src: url(../fonts/mononoki-Regular.ttf);
   }
 
 @font-face {
